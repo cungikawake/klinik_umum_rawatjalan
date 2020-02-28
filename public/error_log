@@ -1,0 +1,30 @@
+
+[07-Aug-2019 16:55:23 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined variable: e in /home/klinikpa/laravel_core/app/Exceptions/Handler.php:47
+Stack trace:
+#0 /home/klinikpa/laravel_core/app/Exceptions/Handler.php(47): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/klinikpa/...', 47, Array)
+#1 /home/klinikpa/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
+#2 /home/klinikpa/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#3 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#4 {main}
+  thrown in /home/klinikpa/laravel_core/app/Exceptions/Handler.php on line 47
+[07-Aug-2019 16:55:23 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined variable: e in /home/klinikpa/laravel_core/app/Exceptions/Handler.php:47
+Stack trace:
+#0 /home/klinikpa/laravel_core/app/Exceptions/Handler.php(47): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/klinikpa/...', 47, Array)
+#1 /home/klinikpa/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#2 /home/klinikpa/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#3 /home/klinikpa/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(123): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\Debug\Exceptio in /home/klinikpa/laravel_core/app/Exceptions/Handler.php on line 47
+[07-Aug-2019 16:55:26 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined variable: e in /home/klinikpa/laravel_core/app/Exceptions/Handler.php:47
+Stack trace:
+#0 /home/klinikpa/laravel_core/app/Exceptions/Handler.php(47): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/klinikpa/...', 47, Array)
+#1 /home/klinikpa/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
+#2 /home/klinikpa/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#3 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#4 {main}
+  thrown in /home/klinikpa/laravel_core/app/Exceptions/Handler.php on line 47
+[07-Aug-2019 16:55:26 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined variable: e in /home/klinikpa/laravel_core/app/Exceptions/Handler.php:47
+Stack trace:
+#0 /home/klinikpa/laravel_core/app/Exceptions/Handler.php(47): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/klinikpa/...', 47, Array)
+#1 /home/klinikpa/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#2 /home/klinikpa/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#3 /home/klinikpa/laravel_core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(123): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\Debug\Exceptio in /home/klinikpa/laravel_core/app/Exceptions/Handler.php on line 47
+[13-Aug-2019 09:13:34 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 23085056 bytes) in /home/klinikpa/laravel_core/storage/framework/views/1e49e6131b8a2c9b08614483e36a296ea79318d3.php on line 32
